@@ -1,0 +1,36 @@
+
+.card {
+    padding: 2em;
+}
+
+.read-the-docs {
+    color: #888;
+}
+
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #e55238;
+    color: inherit;
+
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.cart:hover {
+    color: inherit;
+    background-color: #d53f25;
+    cursor: pointer;
+}
+
